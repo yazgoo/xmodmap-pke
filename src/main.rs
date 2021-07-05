@@ -1,4 +1,4 @@
-use xmodmap_pke::{print_xmodmap_pke, xmodmap_pke};
+use xmodmap_pke_umberwm::{print_xmodmap_pke, xmodmap_pke};
 
 fn main() {
     let (conn, _) = xcb::Connection::connect(None).unwrap();
