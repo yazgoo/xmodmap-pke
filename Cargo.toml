@@ -1,0 +1,20 @@
+[package]
+name = "xmodmap-pke"
+version = "0.0.1"
+authors = ["yazgoo <yazgoo@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "xmodmap -pke implementation in rust"
+readme = "README.md"
+homepage = "https://github.com/yazgoo/xmodmap-pke"
+repository = "https://github.com/yazgoo/xmodmap-pke"
+keywords = ["x11"]
+categories = []
+links = "X11"
+[dependencies]
+anyhow = "1.0"
+x11 = "2.18" 
+[dependencies.xcb]
+version = "0.9"
+features = ["randr"]
+
